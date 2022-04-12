@@ -1,1 +1,13 @@
- example5
+ class Logger {
+     constructor(name){
+         //Al crear este objeto se guradarán estos valores
+         this.count = 0
+         this.name = name
+     }
+     log (message){
+         this.count++ //Se aumenta el contador interno al llamar este método 
+         console.log (`[` + this.name + `]` + message)
+     }
+ }
+
+ module.exports = new Logger (`DEFAULT`) //Instanciación del objeto y se exporta 
