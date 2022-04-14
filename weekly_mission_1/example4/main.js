@@ -8,5 +8,5 @@ dbLogger.info (`This is an informational message`)
 
 //Creación de otro objeto 
 
-const accessLogger = new Logger (ACCESS)
+const accessLogger = new Logger ('ACCESS')
 accessLogger.verbose (`This is a verbose message`)
