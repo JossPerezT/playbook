@@ -1,5 +1,5 @@
-// Impotando la clase MyLogger 
-import MyLogger from './logger'
+// Importando la clase MyLogger
+import MyLogger from './logger.js'
 
-const logger = new MyLogger (`info`)
-logger.log("Hello world")
+const logger = new MyLogger('info')
+logger.log('Hello World')
