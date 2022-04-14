@@ -1,4 +1,4 @@
-class logger {
+class Logger {
     constructor (name){
         this.name = name 
         //This es una variable para referenciar el valor del contexto local de esta clase         
