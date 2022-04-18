@@ -34,4 +34,61 @@ explorer.skills.push (`Elm`) // .push () agrega un elemto a una lista
 console.log (explorer)
 
 
-// Ag
+// Agregar propiedades nuevas a un objeto
+
+explorer.nationality = "Mexican"
+explorer.title = " Explorer"
+
+console.log (explorer)
+
+// Agregando un nuevo método 
+explorer.getPersonInfo = function () {
+    let fullName = this.getFullName()
+    let statement = `${fullName} is a ${this.title}. \n She lives en ${this.country}.`
+    return statement
+}
+console.log(explorer.getPersonInfo())
+
+
+// Podemor tener listas de objetos 
+// Podemos explorar todos estos ejemplos en la consola del navegador y verlos interactiva 
+
+const explorerInNode = [
+    {
+        id: 1,
+        name:"Explorer Name",
+        userName: "explorer1",
+        stack: [
+            "python",
+            "html",
+            "Css",
+            "JS",
+            "Node"
+        ]
+    },
+    {
+        id: 2,
+        name: "Explorer Name",
+        userName: "explorer2",
+        stack: [
+            "python",
+            "html",
+            "css",
+            "js",
+            "node"
+        ]
+    },
+    {
+        id: 3,
+        name: "Explorer Name",
+        userName: "explorer3",
+        stack: [
+            "python",
+            "html",
+            "css",
+            "js",
+            "node"
+        ]
+    }
+]
+console.log (explorerInNode.name)
