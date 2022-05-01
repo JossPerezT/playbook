@@ -2,7 +2,7 @@
 
 
  classDiagram
- class Weekly Mission 1
+ class Weekly Mission 1 {
  Weekly Mission 1 : +Ejemplo 1: Objetos de JS
  Weekly Mission 1 : +Ejemplo 2: Exportando funciones entre scripts con CommonJS
  Weekly Mission 1 : +Ejemplo 3: Diferentes formas de exportar funciones
@@ -13,3 +13,4 @@
  Weekly Mission 1 : +Ejemplo 8: EcmaScript Export Default
  Weekly Mission 1 : +Ejemplo 9: Ejercicio Pikachu con CommonJS
  Weekly Mission 1 : +Ejemplo 10: Ejercicio Pikachu con ESM
+ }
