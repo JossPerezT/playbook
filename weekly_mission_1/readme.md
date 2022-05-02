@@ -1,5 +1,6 @@
 # Weekly Mission 1
 
+Ejercicios desarrollados durante la semana 1
  ```mermaid
  classDiagram
  class Weekly Mission 1 {
